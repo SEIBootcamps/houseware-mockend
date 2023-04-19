@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "antique_bed",
+    "category": "Bed",
+    "color": "Brown",
+    "buyPrice": 28000,
+    "sellPrice": 7000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAntiqueBedW_Remake_0_0",
+    "name": "antique bed"
+  },
+  {
+    "id": "antique_chair",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": 10000,
+    "sellPrice": 2500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAntiqueChairS_Remake_0_0",
+    "name": "antique chair"
+  },
+  {
+    "id": "antique_console_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 17000,
+    "sellPrice": 4250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAntiqueConsole_Remake_0_0",
+    "name": "antique console table"
+  },
+  {
+    "id": "antique_mini_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 6700,
+    "sellPrice": 1675,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAntiqueTableS_Remake_0_0",
+    "name": "antique mini table"
+  },
+  {
+    "id": "antique_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 25000,
+    "sellPrice": 6250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAntiqueTableL_Remake_0_0",
+    "name": "antique table"
+  },
+  {
+    "id": "apple_chair",
+    "category": "Chair",
+    "color": "Red",
+    "buyPrice": null,
+    "sellPrice": 2480,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFruitsChairApple_Remake_0_0",
+    "name": "apple chair"
+  },
+  {
+    "id": "arcade_seat",
+    "category": "Chair",
+    "color": "Red",
+    "buyPrice": 1300,
+    "sellPrice": 325,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGameChair_Remake_0_0",
+    "name": "arcade seat"
+  },
+  {
+    "id": "baby_chair",
+    "category": "Chair",
+    "color": "Red",
+    "buyPrice": 1200,
+    "sellPrice": 300,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBabychair_Remake_0_0",
+    "name": "baby chair"
+  },
+  {
+    "id": "bamboo_bench",
+    "category": "Sofa",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 1280,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBambooChairL_Remake_0_0",
+    "name": "bamboo bench"
+  },
+  {
+    "id": "bamboo_floor_lamp",
+    "category": "Lamp",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 1280,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBambooLamp_Remake_0_0",
+    "name": "bamboo floor lamp"
+  },
+  {
+    "id": "bamboo_stool",
+    "category": "Chair",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBambooStool_Remake_0_0",
+    "name": "bamboo stool"
+  },
+  {
+    "id": "beach_chair",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": 920,
+    "sellPrice": 230,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBeachbed_Remake_0_0",
+    "name": "beach chair"
+  },
+  {
+    "id": "beach_towel",
+    "category": "Bed",
+    "color": "Aqua",
+    "buyPrice": 380,
+    "sellPrice": 95,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBeachtowel_Remake_0_0",
+    "name": "beach towel"
+  },
+  {
+    "id": "birthday_table",
+    "category": "Table",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 300,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBirthdayTable_Remake_0_0",
+    "name": "birthday table"
+  },
+  {
+    "id": "blossom-viewing_lantern",
+    "category": "Lamp",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 2880,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrSakuraLantern_Remake_0_0",
+    "name": "blossom-viewing lantern"
+  },
+  {
+    "id": "box_corner_sofa",
+    "category": "Chair",
+    "color": "Aqua",
+    "buyPrice": 2700,
+    "sellPrice": 675,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBoxsofaCorner_Remake_0_0",
+    "name": "box corner sofa"
+  },
+  {
+    "id": "box_sofa",
+    "category": "Chair",
+    "color": "Aqua",
+    "buyPrice": 2700,
+    "sellPrice": 675,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBoxsofa_Remake_0_0",
+    "name": "box sofa"
+  },
+  {
+    "id": "bunk_bed",
+    "category": "Bed",
+    "color": "Gray",
+    "buyPrice": 5000,
+    "sellPrice": 1250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBunkbed_Remake_0_0",
+    "name": "bunk bed"
+  },
+  {
+    "id": "Bunny_Day_bed",
+    "category": "Bed",
+    "color": "Colorful",
+    "buyPrice": null,
+    "sellPrice": 2400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrEggBedW",
+    "name": "Bunny Day bed"
+  },
+  {
+    "id": "Bunny_Day_stool",
+    "category": "Chair",
+    "color": "Purple",
+    "buyPrice": null,
+    "sellPrice": 1200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrEggStool",
+    "name": "Bunny Day stool"
+  },
+  {
+    "id": "Bunny_Day_table",
+    "category": "Table",
+    "color": "Red",
+    "buyPrice": null,
+    "sellPrice": 1600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrEggTableS",
+    "name": "Bunny Day table"
+  },
+  {
+    "id": "camping_cot",
+    "category": "Bed",
+    "color": "Green",
+    "buyPrice": 1800,
+    "sellPrice": 450,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCampbed_Remake_0_0",
+    "name": "camping cot"
+  },
+  {
+    "id": "Cancer_table",
+    "category": "Table",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 21975,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrZodiacCancer",
+    "name": "Cancer table"
+  },
+  {
+    "id": "cardboard_bed",
+    "category": "Bed",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 240,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCardboardBedS_Remake_0_0",
+    "name": "cardboard bed"
+  },
+  {
+    "id": "cardboard_chair",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 60,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCardboardChairS_Remake_0_0",
+    "name": "cardboard chair"
+  },
+  {
+    "id": "cardboard_sofa",
+    "category": "Sofa",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 120,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCardboardSofaL_Remake_0_0",
+    "name": "cardboard sofa"
+  },
+  {
+    "id": "cardboard_table",
+    "category": "Table",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 240,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCardboardTableL_Remake_0_0",
+    "name": "cardboard table"
+  },
+  {
+    "id": "crescent-moon_chair",
+    "category": "Chair",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 8500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrStarMoonChairL_Remake_0_0",
+    "name": "crescent-moon chair"
+  },
+  {
+    "id": "cute_bed",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": 12000,
+    "sellPrice": 3000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCuteBedW_Remake_0_0",
+    "name": "cute bed"
+  },
+  {
+    "id": "cute_chair",
+    "category": "Chair",
+    "color": "White",
+    "buyPrice": 4300,
+    "sellPrice": 1075,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCuteChairS_Remake_0_0",
+    "name": "cute chair"
+  },
+  {
+    "id": "cute_floor_lamp",
+    "category": "Lamp",
+    "color": "White",
+    "buyPrice": 3500,
+    "sellPrice": 875,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCuteLamp_Remake_0_0",
+    "name": "cute floor lamp"
+  },
+  {
+    "id": "cute_sofa",
+    "category": "Sofa",
+    "color": "White",
+    "buyPrice": 9600,
+    "sellPrice": 2400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCuteChairL_Remake_0_0",
+    "name": "cute sofa"
+  },
+  {
+    "id": "cute_tea_table",
+    "category": "Table",
+    "color": "White",
+    "buyPrice": 3000,
+    "sellPrice": 750,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCuteTableS_Remake_0_0",
+    "name": "cute tea table"
+  },
+  {
+    "id": "den_chair",
+    "category": "Chair",
+    "color": "Black",
+    "buyPrice": 8700,
+    "sellPrice": 2175,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrDrawingChair_Remake_0_0",
+    "name": "den chair"
+  },
+  {
+    "id": "diner_chair",
+    "category": "Chair",
+    "color": "Red",
+    "buyPrice": 1600,
+    "sellPrice": 400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroChairS_Remake_0_0",
+    "name": "diner chair"
+  },
+  {
+    "id": "diner_counter_chair",
+    "category": "Chair",
+    "color": "Gray",
+    "buyPrice": 1100,
+    "sellPrice": 275,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroCounterchair_Remake_0_0",
+    "name": "diner counter chair"
+  },
+  {
+    "id": "diner_counter_table",
+    "category": "Table",
+    "color": "Red",
+    "buyPrice": 6000,
+    "sellPrice": 1500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroCounter_Remake_0_0",
+    "name": "diner counter table"
+  },
+  {
+    "id": "diner_dining_table",
+    "category": "Table",
+    "color": "Gray",
+    "buyPrice": 6400,
+    "sellPrice": 1600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroTableM_Remake_0_0",
+    "name": "diner dining table"
+  },
+  {
+    "id": "diner_mini_table",
+    "category": "Table",
+    "color": "Gray",
+    "buyPrice": 1600,
+    "sellPrice": 400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroTableS_Remake_0_0",
+    "name": "diner mini table"
+  },
+  {
+    "id": "diner_neon_sign",
+    "category": "Lamp",
+    "color": "Blue",
+    "buyPrice": 3900,
+    "sellPrice": 975,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroNeon_Remake_0_0",
+    "name": "diner neon sign"
+  },
+  {
+    "id": "diner_sofa",
+    "category": "Sofa",
+    "color": "Red",
+    "buyPrice": 3500,
+    "sellPrice": 875,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAmeretroChairL_Remake_0_0",
+    "name": "diner sofa"
+  },
+  {
+    "id": "director's_chair",
+    "category": "Chair",
+    "color": "Orange",
+    "buyPrice": 1600,
+    "sellPrice": 400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrDirectorchair_Remake_0_0",
+    "name": "director's chair"
+  },
+  {
+    "id": "double_sofa",
+    "category": "Sofa",
+    "color": "Red",
+    "buyPrice": 4300,
+    "sellPrice": 1075,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrSofaL_Remake_0_0",
+    "name": "double sofa"
+  },
+  {
+    "id": "Festivale_balloon_lamp",
+    "category": "Lamp",
+    "color": "Green",
+    "buyPrice": 4000,
+    "sellPrice": 1000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCarnivalBalloon_Remake_0_0",
+    "name": "Festivale balloon lamp"
+  },
+  {
+    "id": "floor_lamp",
+    "category": "Lamp",
+    "color": "Beige",
+    "buyPrice": 1400,
+    "sellPrice": 350,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLamp_Remake_0_0",
+    "name": "floor lamp"
+  },
+  {
+    "id": "floor_light",
+    "category": "Lamp",
+    "color": "White",
+    "buyPrice": 2200,
+    "sellPrice": 550,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGrandlight_Remake_0_0",
+    "name": "floor light"
+  },
+  {
+    "id": "floor_seat",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": 730,
+    "sellPrice": 182,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFloorchair_Remake_0_0",
+    "name": "floor seat"
+  },
+  {
+    "id": "folding_chair",
+    "category": "Chair",
+    "color": "Blue",
+    "buyPrice": 920,
+    "sellPrice": 230,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPipechair_Remake_0_0",
+    "name": "folding chair"
+  },
+  {
+    "id": "folding_floor_lamp",
+    "category": "Lamp",
+    "color": "Black",
+    "buyPrice": 1900,
+    "sellPrice": 475,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLampArm_Remake_0_0",
+    "name": "folding floor lamp"
+  },
+  {
+    "id": "frozen_bed",
+    "category": "Bed",
+    "color": "Aqua",
+    "buyPrice": null,
+    "sellPrice": 9000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIceBedW_Remake_0_0",
+    "name": "frozen bed"
+  },
+  {
+    "id": "frozen_chair",
+    "category": "Chair",
+    "color": "Aqua",
+    "buyPrice": null,
+    "sellPrice": 6200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIceChairS_Remake_0_0",
+    "name": "frozen chair"
+  },
+  {
+    "id": "frozen_counter",
+    "category": "Table",
+    "color": "Aqua",
+    "buyPrice": null,
+    "sellPrice": 7000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIceCounter_Remake_0_0",
+    "name": "frozen counter"
+  },
+  {
+    "id": "frozen_table",
+    "category": "Table",
+    "color": "Aqua",
+    "buyPrice": null,
+    "sellPrice": 8200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIceTableL_Remake_0_0",
+    "name": "frozen table"
+  },
+  {
+    "id": "futon",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": 1600,
+    "sellPrice": 400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFuton_Remake_0_0",
+    "name": "futon"
+  },
+  {
+    "id": "garden_bench",
+    "category": "Sofa",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 4440,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrParkbenche_Remake_0_0",
+    "name": "garden bench"
+  },
+  {
+    "id": "garden_lantern",
+    "category": "Lamp",
+    "color": "Black",
+    "buyPrice": 1400,
+    "sellPrice": 350,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLampGarden_Remake_0_0",
+    "name": "garden lantern"
+  },
+  {
+    "id": "golden_casket",
+    "category": "Table",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 80000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGoldCoffin",
+    "name": "golden casket"
+  },
+  {
+    "id": "golden_seat",
+    "category": "Sofa",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 50000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGoldbench",
+    "name": "golden seat"
+  },
+  {
+    "id": "hammock",
+    "category": "Bed",
+    "color": "Brown",
+    "buyPrice": 1300,
+    "sellPrice": 325,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHammock_Remake_0_0",
+    "name": "hammock"
+  },
+  {
+    "id": "hay_bed",
+    "category": "Bed",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHaybed_Remake_0_0",
+    "name": "hay bed"
+  },
+  {
+    "id": "imperial_bed",
+    "category": "Bed",
+    "color": "Red",
+    "buyPrice": 23000,
+    "sellPrice": 5750,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrOrientalBedW_Remake_0_0",
+    "name": "imperial bed"
+  },
+  {
+    "id": "imperial_dining_chair",
+    "category": "Chair",
+    "color": "Red",
+    "buyPrice": 29000,
+    "sellPrice": 7250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrChineseChair_Remake_0_0",
+    "name": "imperial dining chair"
+  },
+  {
+    "id": "imperial_dining_table",
+    "category": "Table",
+    "color": "Red",
+    "buyPrice": 73000,
+    "sellPrice": 18250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLazysusan_Remake_0_0",
+    "name": "imperial dining table"
+  },
+  {
+    "id": "imperial_low_table",
+    "category": "Table",
+    "color": "Red",
+    "buyPrice": 3700,
+    "sellPrice": 925,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrOrientalTableM_Remake_0_0",
+    "name": "imperial low table"
+  },
+  {
+    "id": "inflatable_sofa",
+    "category": "Bed",
+    "color": "Aqua",
+    "buyPrice": 1100,
+    "sellPrice": 275,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrAirsofa_Remake_0_0",
+    "name": "inflatable sofa"
+  },
+  {
+    "id": "iron_garden_bench",
+    "category": "Sofa",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 6000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIrongardenBench_Remake_0_0",
+    "name": "iron garden bench"
+  },
+  {
+    "id": "iron_garden_chair",
+    "category": "Chair",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 2250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIrongardenChair_Remake_0_0",
+    "name": "iron garden chair"
+  },
+  {
+    "id": "iron_garden_table",
+    "category": "Table",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 3750,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIrongardenTable_Remake_0_0",
+    "name": "iron garden table"
+  },
+  {
+    "id": "iron_worktable",
+    "category": "Table",
+    "color": "Black",
+    "buyPrice": null,
+    "sellPrice": 7500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIronTableM_Remake_0_0",
+    "name": "iron worktable"
+  },
+  {
+    "id": "ironwood_bed",
+    "category": "Bed",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 9900,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIronwoodBedS_Remake_0_0",
+    "name": "ironwood bed"
+  },
+  {
+    "id": "ironwood_chair",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 1860,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIronwoodChairS_Remake_0_0",
+    "name": "ironwood chair"
+  },
+  {
+    "id": "ironwood_low_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 3720,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIronwoodTableM_Remake_0_0",
+    "name": "ironwood low table"
+  },
+  {
+    "id": "ironwood_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 5940,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrIronwoodTableL_Remake_0_0",
+    "name": "ironwood table"
+  },
+  {
+    "id": "kotatsu",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 3700,
+    "sellPrice": 925,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrKotatsu_Remake_0_0",
+    "name": "kotatsu"
+  },
+  {
+    "id": "lawn_chair",
+    "category": "Chair",
+    "color": "Aqua",
+    "buyPrice": 760,
+    "sellPrice": 190,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrVinylchair_Remake_0_0",
+    "name": "lawn chair"
+  },
+  {
+    "id": "leaf_stool",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1560,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFallenleavesChairS_Remake_0_0",
+    "name": "leaf stool"
+  },
+  {
+    "id": "lecture-hall_bench",
+    "category": "Sofa",
+    "color": "Orange",
+    "buyPrice": 3300,
+    "sellPrice": 825,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrChairCollage_Remake_0_0",
+    "name": "lecture-hall bench"
+  },
+  {
+    "id": "log_bed",
+    "category": "Bed",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 3600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogBedW_Remake_0_0",
+    "name": "log bed"
+  },
+  {
+    "id": "log_bench",
+    "category": "Sofa",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogStoolL_Remake_0_0",
+    "name": "log bench"
+  },
+  {
+    "id": "log_chair",
+    "category": "Sofa",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 960,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogSofaS_Remake_0_0",
+    "name": "log chair"
+  },
+  {
+    "id": "log_dining_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogTableL_Remake_0_0",
+    "name": "log dining table"
+  },
+  {
+    "id": "log_extra-long_sofa",
+    "category": "Sofa",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1920,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogSofaL_Remake_0_0",
+    "name": "log extra-long sofa"
+  },
+  {
+    "id": "log_garden_lounge",
+    "category": "Bed",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1440,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogBedS_Remake_0_0",
+    "name": "log garden lounge"
+  },
+  {
+    "id": "log_round_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogTableLRound_Remake_0_0",
+    "name": "log round table"
+  },
+  {
+    "id": "log_stool",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 480,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLogStoolS_Remake_0_0",
+    "name": "log stool"
+  },
+  {
+    "id": "Luna's_bed",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 900,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrTapBedS",
+    "name": "Luna's bed"
+  },
+  {
+    "id": "mermaid_bed",
+    "category": "Bed",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 22400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMermaidBedS",
+    "name": "mermaid bed"
+  },
+  {
+    "id": "mermaid_chair",
+    "category": "Chair",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 11140,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMermaidChairS",
+    "name": "mermaid chair"
+  },
+  {
+    "id": "mermaid_lamp",
+    "category": "Lamp",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 13850,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMermaidLamp",
+    "name": "mermaid lamp"
+  },
+  {
+    "id": "mermaid_sofa",
+    "category": "Sofa",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 11200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMermaidChairL",
+    "name": "mermaid sofa"
+  },
+  {
+    "id": "mermaid_table",
+    "category": "Table",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 10480,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMermaidTableM",
+    "name": "mermaid table"
+  },
+  {
+    "id": "modern_office_chair",
+    "category": "Chair",
+    "color": "Blue",
+    "buyPrice": 2200,
+    "sellPrice": 550,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrOfficeChair_Remake_0_0",
+    "name": "modern office chair"
+  },
+  {
+    "id": "mum_cushion",
+    "category": "Chair",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 440,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFlowerStoolS_Remake_0_0",
+    "name": "mum cushion"
+  },
+  {
+    "id": "mush_lamp",
+    "category": "Lamp",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMushroomLamp_Remake_0_0",
+    "name": "mush lamp"
+  },
+  {
+    "id": "mush_low_stool",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMushroomChairS_Remake_0_0",
+    "name": "mush low stool"
+  },
+  {
+    "id": "mush_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 1520,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrMushroomTableL_Remake_0_0",
+    "name": "mush table"
+  },
+  {
+    "id": "natural_garden_chair",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 2220,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGardenChairNatural_Remake_0_0",
+    "name": "natural garden chair"
+  },
+  {
+    "id": "natural_garden_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 3330,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGardenTableNatural_Remake_0_0",
+    "name": "natural garden table"
+  },
+  {
+    "id": "natural_square_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 1980,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrGardenTableSNatural_Remake_0_0",
+    "name": "natural square table"
+  },
+  {
+    "id": "orange_end_table",
+    "category": "Table",
+    "color": "Orange",
+    "buyPrice": null,
+    "sellPrice": 2480,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFruitsTableS_Remake_0_0",
+    "name": "orange end table"
+  },
+  {
+    "id": "outdoor_bench",
+    "category": "Sofa",
+    "color": "Gray",
+    "buyPrice": 1300,
+    "sellPrice": 325,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrOutdoorchairM_Remake_0_0",
+    "name": "outdoor bench"
+  },
+  {
+    "id": "outdoor_table",
+    "category": "Table",
+    "color": "Gray",
+    "buyPrice": 2200,
+    "sellPrice": 550,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrOutdoortableM_Remake_0_0",
+    "name": "outdoor table"
+  },
+  {
+    "id": "palm-tree_lamp",
+    "category": "Lamp",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 3280,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPalmtreelamp_Remake_0_0",
+    "name": "palm-tree lamp"
+  },
+  {
+    "id": "pansy_table",
+    "category": "Table",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 760,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFlowerTableS_Remake_0_0",
+    "name": "pansy table"
+  },
+  {
+    "id": "paper_lantern",
+    "category": "Lamp",
+    "color": "Beige",
+    "buyPrice": 780,
+    "sellPrice": 195,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLampJapan_Remake_0_0",
+    "name": "paper lantern"
+  },
+  {
+    "id": "peach_chair",
+    "category": "Chair",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 2600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFruitsChairPeach_Remake_0_0",
+    "name": "peach chair"
+  },
+  {
+    "id": "pear_bed",
+    "category": "Bed",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 2720,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFruitsBedS_Remake_0_0",
+    "name": "pear bed"
+  },
+  {
+    "id": "pet_bed",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": 1100,
+    "sellPrice": 275,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPetBed_Remake_0_0",
+    "name": "pet bed"
+  },
+  {
+    "id": "piano_bench",
+    "category": "Chair",
+    "color": "Black",
+    "buyPrice": 990,
+    "sellPrice": 247,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPianochair_Remake_0_0",
+    "name": "piano bench"
+  },
+  {
+    "id": "pile_of_zen_cushions",
+    "category": "Chair",
+    "color": "Blue",
+    "buyPrice": null,
+    "sellPrice": 750,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCushionJapanPile_Remake_0_0",
+    "name": "pile of zen cushions"
+  },
+  {
+    "id": "Pisces_lamp",
+    "category": "Lamp",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 22050,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrZodiacPisces",
+    "name": "Pisces lamp"
+  },
+  {
+    "id": "poolside_bed",
+    "category": "Bed",
+    "color": "Beige",
+    "buyPrice": 3400,
+    "sellPrice": 850,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPoolsidebed_Remake_0_0",
+    "name": "poolside bed"
+  },
+  {
+    "id": "public_bench",
+    "category": "Sofa",
+    "color": "Aqua",
+    "buyPrice": null,
+    "sellPrice": 10000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPublicbench_Remake_0_0",
+    "name": "public bench"
+  },
+  {
+    "id": "rattan_armchair",
+    "category": "Sofa",
+    "color": "White",
+    "buyPrice": 3200,
+    "sellPrice": 800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrRattanChairS_Remake_0_0",
+    "name": "rattan armchair"
+  },
+  {
+    "id": "rattan_bed",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": 7200,
+    "sellPrice": 1800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrRattanBedW_Remake_0_0",
+    "name": "rattan bed"
+  },
+  {
+    "id": "rattan_end_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 4300,
+    "sellPrice": 1075,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrRattanTableS_Remake_0_0",
+    "name": "rattan end table"
+  },
+  {
+    "id": "rattan_low_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 2900,
+    "sellPrice": 725,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrRattanTableM_Remake_0_0",
+    "name": "rattan low table"
+  },
+  {
+    "id": "rattan_stool",
+    "category": "Chair",
+    "color": "White",
+    "buyPrice": 2900,
+    "sellPrice": 725,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrRattanStool_Remake_0_0",
+    "name": "rattan stool"
+  },
+  {
+    "id": "rocket_lamp",
+    "category": "Lamp",
+    "color": "Aqua",
+    "buyPrice": 1500,
+    "sellPrice": 375,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLavalamp_Remake_0_0",
+    "name": "rocket lamp"
+  },
+  {
+    "id": "rocking_chair",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 960,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrRockingchair_Remake_0_0",
+    "name": "rocking chair"
+  },
+  {
+    "id": "rose_bed",
+    "category": "Bed",
+    "color": "Red",
+    "buyPrice": null,
+    "sellPrice": 1400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrFlowerBedW_Remake_0_0",
+    "name": "rose bed"
+  },
+  {
+    "id": "school_chair",
+    "category": "Chair",
+    "color": "Yellow",
+    "buyPrice": 980,
+    "sellPrice": 245,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrSchoolChairS_Remake_0_0",
+    "name": "school chair"
+  },
+  {
+    "id": "shaded_floor_lamp",
+    "category": "Lamp",
+    "color": "Yellow",
+    "buyPrice": 1700,
+    "sellPrice": 425,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLampMount_Remake_0_0",
+    "name": "shaded floor lamp"
+  },
+  {
+    "id": "shell_bed",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 10200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrShellBedW_Remake_0_0",
+    "name": "shell bed"
+  },
+  {
+    "id": "shell_stool",
+    "category": "Chair",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrShellStoolS_Remake_0_0",
+    "name": "shell stool"
+  },
+  {
+    "id": "shell_table",
+    "category": "Table",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 2280,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrShellTableL_Remake_0_0",
+    "name": "shell table"
+  },
+  {
+    "id": "sleeping_bag",
+    "category": "Bed",
+    "color": "Green",
+    "buyPrice": 1400,
+    "sellPrice": 350,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrSleepingbag_Remake_0_0",
+    "name": "sleeping bag"
+  },
+  {
+    "id": "sleigh",
+    "category": "Chair",
+    "color": "Orange",
+    "buyPrice": null,
+    "sellPrice": 960,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrSled_Remake_0_0",
+    "name": "sleigh"
+  },
+  {
+    "id": "soft-serve_lamp",
+    "category": "Lamp",
+    "color": "White",
+    "buyPrice": 3000,
+    "sellPrice": 750,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLampSoftcream_Remake_0_0",
+    "name": "soft-serve lamp"
+  },
+  {
+    "id": "spooky_chair",
+    "category": "Chair",
+    "color": "Orange",
+    "buyPrice": 5000,
+    "sellPrice": 1250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHwnChairS_Remake_0_0",
+    "name": "spooky chair"
+  },
+  {
+    "id": "spooky_standing_lamp",
+    "category": "Lamp",
+    "color": "Orange",
+    "buyPrice": 5800,
+    "sellPrice": 1450,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHwnStand_Remake_0_0",
+    "name": "spooky standing lamp"
+  },
+  {
+    "id": "spooky_table",
+    "category": "Table",
+    "color": "Orange",
+    "buyPrice": 22000,
+    "sellPrice": 5500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHwnTableL_Remake_0_0",
+    "name": "spooky table"
+  },
+  {
+    "id": "stone_stool",
+    "category": "Chair",
+    "color": "Gray",
+    "buyPrice": null,
+    "sellPrice": 450,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrStoneChair",
+    "name": "stone stool"
+  },
+  {
+    "id": "stone_table",
+    "category": "Table",
+    "color": "Gray",
+    "buyPrice": null,
+    "sellPrice": 1200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrStoneTable",
+    "name": "stone table"
+  },
+  {
+    "id": "streetlamp",
+    "category": "Lamp",
+    "color": "Green",
+    "buyPrice": null,
+    "sellPrice": 5000,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrStreetlamp_Remake_0_0",
+    "name": "streetlamp"
+  },
+  {
+    "id": "studio_spotlight",
+    "category": "Lamp",
+    "color": "Black",
+    "buyPrice": 2100,
+    "sellPrice": 525,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrLampSpot_Remake_0_0",
+    "name": "studio spotlight"
+  },
+  {
+    "id": "study_chair",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": 1700,
+    "sellPrice": 425,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrStudyChair_Remake_0_0",
+    "name": "study chair"
+  },
+  {
+    "id": "swinging_bench",
+    "category": "Sofa",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 1440,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrSwingWood_Remake_0_0",
+    "name": "swinging bench"
+  },
+  {
+    "id": "table_with_cloth",
+    "category": "Table",
+    "color": "White",
+    "buyPrice": 5100,
+    "sellPrice": 1275,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrTableCloth_Remake_0_0",
+    "name": "table with cloth"
+  },
+  {
+    "id": "tatami_bed",
+    "category": "Bed",
+    "color": "Brown",
+    "buyPrice": 2800,
+    "sellPrice": 700,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrTatamiBedS_Remake_0_0",
+    "name": "tatami bed"
+  },
+  {
+    "id": "throwback_hat_table",
+    "category": "Table",
+    "color": "Red",
+    "buyPrice": 3800,
+    "sellPrice": 950,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBoyTableL_Remake_0_0",
+    "name": "throwback hat table"
+  },
+  {
+    "id": "throwback_mitt_chair",
+    "category": "Chair",
+    "color": "Orange",
+    "buyPrice": 1400,
+    "sellPrice": 350,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBoyChairS_Remake_0_0",
+    "name": "throwback mitt chair"
+  },
+  {
+    "id": "throwback_race-car_bed",
+    "category": "Bed",
+    "color": "Red",
+    "buyPrice": 3800,
+    "sellPrice": 950,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBoyBedS_Remake_0_0",
+    "name": "throwback race-car bed"
+  },
+  {
+    "id": "tiki_torch",
+    "category": "Lamp",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 650,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrTorch",
+    "name": "tiki torch"
+  },
+  {
+    "id": "tool_cart",
+    "category": "Table",
+    "color": "Red",
+    "buyPrice": 2400,
+    "sellPrice": 600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrToolcart_Remake_0_0",
+    "name": "tool cart"
+  },
+  {
+    "id": "tool_shelf",
+    "category": "Table",
+    "color": "White",
+    "buyPrice": 7300,
+    "sellPrice": 1825,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrToolshelf_Remake_0_0",
+    "name": "tool shelf"
+  },
+  {
+    "id": "Turkey_Day_chair",
+    "category": "Chair",
+    "color": "Orange",
+    "buyPrice": 2200,
+    "sellPrice": 550,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHarvestChairS_Remake_0_0",
+    "name": "Turkey Day chair"
+  },
+  {
+    "id": "Turkey_Day_table",
+    "category": "Table",
+    "color": "Brown",
+    "buyPrice": 4500,
+    "sellPrice": 1125,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrHarvestTableL_Remake_0_0",
+    "name": "Turkey Day table"
+  },
+  {
+    "id": "velvet_stool",
+    "category": "Chair",
+    "color": "Red",
+    "buyPrice": 1000,
+    "sellPrice": 250,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrPianoStool",
+    "name": "velvet stool"
+  },
+  {
+    "id": "vintage_TV_tray",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": 1200,
+    "sellPrice": 300,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrTVtray_Remake_0_0",
+    "name": "vintage TV tray"
+  },
+  {
+    "id": "wedding_bench",
+    "category": "Sofa",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 875,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWeddingChairL_Remake_0_0",
+    "name": "wedding bench"
+  },
+  {
+    "id": "wedding_chair",
+    "category": "Chair",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWeddingChairS_Remake_0_0",
+    "name": "wedding chair"
+  },
+  {
+    "id": "wedding_head_table",
+    "category": "Table",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 750,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWeddingTableM_Remake_0_0",
+    "name": "wedding head table"
+  },
+  {
+    "id": "wedding_table",
+    "category": "Table",
+    "color": "Pink",
+    "buyPrice": null,
+    "sellPrice": 1500,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWeddingTableL_Remake_0_0",
+    "name": "wedding table"
+  },
+  {
+    "id": "wheelchair",
+    "category": "Chair",
+    "color": "Black",
+    "buyPrice": 2700,
+    "sellPrice": 675,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWheelchair_Remake_0_0",
+    "name": "wheelchair"
+  },
+  {
+    "id": "wild_log_bench",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 960,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodBench_Remake_0_0",
+    "name": "wild log bench"
+  },
+  {
+    "id": "wooden_chair",
+    "category": "Chair",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 720,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenChairS_Remake_0_0",
+    "name": "wooden chair"
+  },
+  {
+    "id": "wooden_double_bed",
+    "category": "Bed",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 3600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenBedW_Remake_0_0",
+    "name": "wooden double bed"
+  },
+  {
+    "id": "wooden_end_table",
+    "category": "Table",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 960,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenTableS_Remake_0_0",
+    "name": "wooden end table"
+  },
+  {
+    "id": "wooden_low_table",
+    "category": "Table",
+    "color": "Yellow",
+    "buyPrice": null,
+    "sellPrice": 1200,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenTableM_Remake_0_0",
+    "name": "wooden low table"
+  },
+  {
+    "id": "wooden_mini_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 720,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenTableMini_Remake_0_0",
+    "name": "wooden mini table"
+  },
+  {
+    "id": "wooden_simple_bed",
+    "category": "Bed",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 2160,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenBedS_Remake_0_0",
+    "name": "wooden simple bed"
+  },
+  {
+    "id": "wooden_stool",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 480,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenStoolS_Remake_0_0",
+    "name": "wooden stool"
+  },
+  {
+    "id": "wooden_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 1800,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrWoodenTableL_Remake_0_0",
+    "name": "wooden table"
+  },
+  {
+    "id": "wooden-block_bed",
+    "category": "Bed",
+    "color": "White",
+    "buyPrice": null,
+    "sellPrice": 2400,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBlockBedS_Remake_0_0",
+    "name": "wooden-block bed"
+  },
+  {
+    "id": "wooden-block_bench",
+    "category": "Sofa",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 840,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBlockChairL_Remake_0_0",
+    "name": "wooden-block bench"
+  },
+  {
+    "id": "wooden-block_chair",
+    "category": "Chair",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 720,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBlockChairS_Remake_0_0",
+    "name": "wooden-block chair"
+  },
+  {
+    "id": "wooden-block_stool",
+    "category": "Chair",
+    "color": "Brown",
+    "buyPrice": null,
+    "sellPrice": 600,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBlockStoolS_Remake_0_0",
+    "name": "wooden-block stool"
+  },
+  {
+    "id": "wooden-block_table",
+    "category": "Table",
+    "color": "Beige",
+    "buyPrice": null,
+    "sellPrice": 1320,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrBlockTableL_Remake_0_0",
+    "name": "wooden-block table"
+  },
+  {
+    "id": "zen_cushion",
+    "category": "Chair",
+    "color": "Blue",
+    "buyPrice": 500,
+    "sellPrice": 125,
+    "imageUri": "https://acnhapi.com/v1/images/furniture/FtrCushionJapan_Remake_0_0",
+    "name": "zen cushion"
+  }
+]
