@@ -5,12 +5,11 @@ import { initializeDB, dbMiddleware } from "./db.mjs";
 import seedDefaultData from "./defaultData.mjs";
 import { logErrors, clientErrorHandler } from "./errors.mjs";
 
+const router = Router();
 const db = initializeDB("db.json", seedDefaultData());
 const { readDB, writeDB } = dbMiddleware({ db });
-const router = Router();
+
 router.use(json());
-router.use(logErrors);
-router.use(clientErrorHandler);
 
 router.get("/inventory", readDB, (req, res) => {
   const { inventory } = req.dbData;
@@ -22,7 +21,11 @@ router.get("/inventory/:id", readDB, (req, res) => {
   const { inventory } = req.dbData;
   const item = inventory.find((item) => item.id === id);
   if (!item) {
-    throw new Error("resource not found");
+    try {
+      throw new Error("resource not found");
+    } catch (err) {
+      next(err);
+    }
   } else {
     res.json(alphabetize(item));
   }
@@ -31,7 +34,7 @@ router.get("/inventory/:id", readDB, (req, res) => {
 router.post(
   "/inventory",
   readDB,
-  (req, res) => {
+  (req, res, next) => {
     const { inventory } = req.dbData;
     const defaultFields = {
       category: null,
@@ -40,23 +43,39 @@ router.post(
       imageUri: null,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
+      interestedBuyers: [],
     };
+
+    const { id, name, category, color, sellPrice, imageUri } = req.body;
+    if (!id || !name) {
+      try {
+        throw new Error("missing required fields");
+      } catch (err) {
+        next(err);
+      }
+    }
+
+    if (inventory.find((item) => item.id === id)) {
+      try {
+        throw new Error("resource already exists");
+      } catch (err) {
+        next(err);
+      }
+    }
 
     const newItem = {
+      id,
+      name,
       ...defaultFields,
-      ...req.body,
+      category: category ?? defaultFields.category,
+      color: color ?? defaultFields.color,
+      sellPrice: sellPrice ?? defaultFields.sellPrice,
+      imageUri: imageUri ?? defaultFields.imageUri,
     };
-
-    if (!newItem.id || !newItem.name) {
-      throw new Error("missing required fields");
-    }
-
-    if (db.data.housewares.find((item) => item.id === newItem.id)) {
-      throw new Error("resource already exists");
-    }
-
     inventory.push(newItem);
     res.status(201).json(alphabetize(newItem));
+
+    next();
   },
   writeDB
 );
@@ -64,23 +83,32 @@ router.post(
 router.patch(
   "/inventory/:id",
   readDB,
-  (req, res) => {
+  (req, res, next) => {
     const { id } = req.params;
     const { inventory } = req.dbData;
 
     const item = inventory.find((item) => item.id === id);
     if (!item) {
-      throw new Error("resource not found");
+      try {
+        throw new Error("resource not found");
+      } catch (err) {
+        next(err);
+      }
     }
 
-    const i = inventory.indexOf(i);
+    const { name, category, color, sellPrice, imageUri } = req.body;
+    const i = inventory.indexOf(item);
     inventory[i] = {
       ...item,
-      ...req.body,
-      id: item.id, // don't change id of item
+      name: name ?? item.name,
+      category: category ?? item.category,
+      color: color ?? item.color,
+      sellPrice: sellPrice ?? item.sellPrice,
+      imageUri: imageUri ?? item.imageUri,
       updatedAt: new Date().toISOString(),
     };
     res.json(alphabetize(inventory[i]));
+    next();
   },
   writeDB
 );
@@ -88,17 +116,117 @@ router.patch(
 router.delete(
   "/inventory/:id",
   readDB,
-  (req, res) => {
+  (req, res, next) => {
     const { id } = req.params;
     const { inventory } = req.dbData;
     const item = inventory.find((item) => item.id === id);
     if (!item) {
-      throw new Error("resource not found");
+      try {
+        throw new Error("resource not found");
+      } catch (err) {
+        next(err);
+      }
     }
 
     const i = inventory.indexOf(item);
     inventory.splice(i, 1);
     res.status(204).send();
+    next();
+  },
+  writeDB
+);
+
+router.get("/inventory/:id/buyers", readDB, (req, res) => {
+  const { id } = req.params;
+  const { inventory, buyers } = req.dbData;
+  const item = inventory.find((item) => item.id === id);
+  if (!item) {
+    try {
+      throw new Error("resource not found");
+    } catch (err) {
+      next(err);
+    }
+  }
+  const itemBuyers = item.interestedBuyers.map((buyerId) =>
+    buyers.find((b) => b.id === buyerId)
+  );
+  res.json(alphabetize(itemBuyers));
+});
+
+router.post(
+  "/inventory/:id/buyers",
+  readDB,
+  (req, res, next) => {
+    const { id } = req.params;
+    const { inventory, buyers } = req.dbData;
+    const { buyerId } = req.body;
+    if (!buyerId) {
+      try {
+        throw new Error("missing required fields");
+      } catch (err) {
+        next(err);
+      }
+    }
+
+    const buyer = buyers.find((b) => b.id === req.body.buyerId);
+    const item = inventory.find((item) => item.id === id);
+    if (!buyer || !item) {
+      try {
+        throw new Error("resource not found");
+      } catch (err) {
+        next(err);
+      }
+    }
+
+    if (item.interestedBuyers.includes(buyerId)) {
+      try {
+        throw new Error("resource already exists");
+      } catch (err) {
+        next(err);
+      }
+    }
+
+    item.interestedBuyers.push(buyerId);
+    res.status(201).json(alphabetize(item));
+    next();
+  },
+  writeDB
+);
+
+router.delete(
+  "/inventory/:id/buyers",
+  readDB,
+  (req, res, next) => {
+    const { id } = req.params;
+    const { inventory } = req.dbData;
+    const item = inventory.find((item) => item.id === id);
+    if (!item) {
+      try {
+        throw new Error("resource not found");
+      } catch (err) {
+        next(err);
+      }
+    }
+    const { buyerId } = req.body;
+    if (!buyerId) {
+      try {
+        throw new Error("missing required fields");
+      } catch (err) {
+        next(err);
+      }
+    }
+    const i = item.interestedBuyers.indexOf(buyerId);
+    if (i === -1) {
+      try {
+        throw new Error("not modified");
+      } catch (err) {
+        next(err);
+      }
+    }
+
+    item.interestedBuyers.splice(i, 1);
+    res.status(204).send();
+    next();
   },
   writeDB
 );
@@ -113,7 +241,11 @@ router.get("/buyers/:id", readDB, (req, res) => {
   const { buyers } = req.dbData;
   const buyer = buyers.find((b) => b.id === id);
   if (!buyer) {
-    throw new Error("resource not found");
+    try {
+      throw new Error("resource not found");
+    } catch (err) {
+      next(err);
+    }
   } else {
     res.json(alphabetize(buyer));
   }
@@ -122,14 +254,22 @@ router.get("/buyers/:id", readDB, (req, res) => {
 router.post(
   "/buyers",
   readDB,
-  (req, res) => {
+  (req, res, next) => {
     const { buyers } = req.dbData;
 
     if (!req.body.name || !req.body.email) {
-      throw new Error("missing required fields");
+      try {
+        throw new Error("missing required fields");
+      } catch (err) {
+        next(err);
+      }
     }
     if (buyers.find((b) => b.email === req.body.email)) {
-      throw new Error("resource already exists");
+      try {
+        throw new Error("resource already exists");
+      } catch (err) {
+        next(err);
+      }
     }
 
     const defaultFields = {
@@ -146,6 +286,7 @@ router.post(
 
     buyers.push(newBuyer);
     res.status(201).json(alphabetize(newBuyer));
+    next();
   },
   writeDB
 );
@@ -153,13 +294,17 @@ router.post(
 router.patch(
   "/buyer/:id",
   readDB,
-  (req, res) => {
+  (req, res, next) => {
     const { id } = req.params;
     const { buyers } = req.dbData;
 
     const buyer = buyers.find((b) => b.id === id);
     if (!buyer) {
-      throw new Error("resource not found");
+      try {
+        throw new Error("resource not found");
+      } catch (err) {
+        next(err);
+      }
     }
 
     const i = buyers.indexOf(i);
@@ -170,6 +315,7 @@ router.patch(
       updatedAt: new Date().toISOString(),
     };
     res.json(alphabetize(buyers[i]));
+    next();
   },
   writeDB
 );
@@ -177,19 +323,27 @@ router.patch(
 router.delete(
   "/buyers/:id",
   readDB,
-  (req, res) => {
+  (req, res, next) => {
     const { id } = req.params;
     const { buyers } = req.dbData;
     const buyer = buyers.find((b) => b.id === id);
     if (!buyer) {
-      throw new Error("resource not found");
+      try {
+        throw new Error("resource not found");
+      } catch (err) {
+        next(err);
+      }
     }
 
     const i = buyers.indexOf(buyer);
     buyers.splice(i, 1);
     res.status(204).send();
+    next();
   },
   writeDB
 );
+
+router.use(logErrors);
+router.use(clientErrorHandler);
 
 export default router;
