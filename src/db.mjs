@@ -6,6 +6,7 @@ import { JSONFile } from "lowdb/node";
 const initializeDB = (filename, defaultData) => {
   const file = join(dirname(fileURLToPath(import.meta.url)), filename);
   const adapter = new JSONFile(file);
+  console.log(`Loading database from ${file}...`);
   const db = new Low(adapter, defaultData);
   return db;
 };
@@ -19,6 +20,8 @@ const dbMiddleware = ({ db }) => {
       next();
     },
     writeDB: async (req, res, next) => {
+      db.data = req.dbData;
+      console.log("Writing to database...");
       await db.write();
       next();
     },
