@@ -2,7 +2,7 @@
   "name": "houseware-mockend",
   "version": "1.0.0",
   "description": "An Express router module to mount a RESTful API mockend. Data is from the ACNH API.",
-  "main": "index.js",
+  "main": "index.mjs",
   "author": "Ashley Trinh <itsashley@hey.com>",
   "license": "MIT",
   "dependencies": {
