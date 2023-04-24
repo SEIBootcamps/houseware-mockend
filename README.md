@@ -18,7 +18,7 @@ Mount to your Express app:
 ```js
 import express from "express";
 
-import api from "./index.js";
+import api from "houseware-mockend";
 
 const app = express();
 app.use("/api", api);
