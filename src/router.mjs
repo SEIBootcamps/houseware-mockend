@@ -1,4 +1,6 @@
-import { Router, json } from "express";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { Router, json, static as expressStatic } from "express";
 import alphabetize from "alphabetize-object-keys";
 import { v4 as uuidv4 } from "uuid";
 import { initializeDB, dbMiddleware } from "./db.mjs";
@@ -10,6 +12,10 @@ const db = initializeDB("db.json", seedDefaultData());
 const { readDB, writeDB } = dbMiddleware({ db });
 
 router.use(json());
+router.use(
+  "/images",
+  expressStatic(join(dirname(fileURLToPath(import.meta.url)), "data/images"))
+);
 
 router.get("/inventory", readDB, (req, res) => {
   const { inventory } = req.dbData;
